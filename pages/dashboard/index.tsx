@@ -9,7 +9,7 @@ import { useViewport } from "../../hooks";
 const index: React.FC = () => {
 	const { width } = useViewport();
 
-	if (width < 960) {
+	if (width < 1100) {
 		return (
 			<div className='bg-black h-screen w-full '>
 				<div className='flex flex-col justify-center items-center py-16'>
